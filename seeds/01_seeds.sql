@@ -39,7 +39,7 @@ INSERT INTO properties (
   (2, 2, '2019-01-04', '2019-02-01'),
   (3, 3, '2021-10-01', '2021-10-14');
 
-  INSERT INTO property_reveiws (guest_id, property_id, reservation_id, rating, message)
+  INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
   VALUES (1, 2, 3, 4, 'messages'),
   (2, 3, 1, 3, 'messages'),
   (3, 2, 1, 5, 'messages');
